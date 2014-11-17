@@ -1,0 +1,26 @@
+{
+  "name": "Proxy Server",
+  "version": "0.1.2",
+  "description": "A simple proxy server using Node.js, Express and HTTP Proxy.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node /server/server.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+    "node-http-proxy": "~1.6.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfitchett/snproxy"
+  },
+  "keywords": [
+    "node",
+    "proxy",
+    "express"
+  ],
+  "license": "MIT"
+}
