@@ -1,6 +1,6 @@
 {
-  "name": "Proxy Server",
-  "version": "0.1.2",
+  "name": "snproxy",
+  "version": "0.1.0",
   "description": "A simple proxy server using Node.js, Express and HTTP Proxy.",
   "main": "server.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "express": "~4.9.x",
-    "node-http-proxy": "~1.6.x"
+    "http-proxy": "~1.6.x"
   },
   "engines": {
     "node": "0.10.x"
