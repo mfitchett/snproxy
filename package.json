@@ -4,7 +4,7 @@
   "description": "A simple proxy server using Node.js, Express and HTTP Proxy.",
   "main": "server.js",
   "scripts": {
-    "start": "node /server/server.js"
+    "start": "node server/server.js"
   },
   "dependencies": {
     "express": "~4.9.x"
