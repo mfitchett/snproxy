@@ -52,10 +52,10 @@
     proxy.web(req, res, { target: 'https://capi-eval.signnow.com:443/api' });
   });
 
-  app.all("/requestbin/:id", function(req, res, id){
-    req.url = req.url.replace('/requestbin/'+id, '');
+  app.all("/requestbin/:id", function(req, res){
+    req.url = req.url.replace('/requestbin', '');
     req = sn.processReq(req);
-    proxy.web(req, res, { target: 'http://requestb.in/'+id });
+    proxy.web(req, res, { target: 'http://requestb.in/' });
   });
 
   //--------------------------
